@@ -314,75 +314,79 @@
 <section class="container-fluid subfooter">
 	<div class="container text-center">
 		<ul>
-			<li>© Copyright 2017 | Croesus  Digital Marketing</li>
-			<li><a href="#"></a></li>
+			<li>© Copyright 2017 | Croesus Digital Marketing</li>
+			<li>
+				<a href="#"></a>
+			</li>
 		</ul>
 	</div>
 </section>
 <a href="#" id="back-to-top" title="Back to top"></a>
-	<!-- Loading JS files -->
+<!-- Loading JS files -->
 
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
-	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="js/vendors/jquery.min.js"></script>
-	<script src="js/vendors/bootstrap.min.js"></script>
-	<script src="js/vendors/slick.min.js"></script>
-	<script src="js/main.min.js"></script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+<!-- Include all compiled plugins (below), or include individual files as needed -->
 
-	<script>
-		$('.client-logos').slick({
-			infinite: true,
-			slidesToShow: 3,
-			slidesToScroll: 3,
-			autoplay: true,
-			autoplaySpeed: 2000,
-			responsive: [{
-					breakpoint: 992,
-					settings: {
-						slidesToShow: 3,
-						slidesToScroll: 3,
-						infinite: true
-					}
-				},
-				{
-					breakpoint: 800,
-					settings: {
-						slidesToShow: 2,
-						slidesToScroll: 2
-					}
-				},
-				{
-					breakpoint: 480,
-					settings: {
-						slidesToShow: 1,
-						slidesToScroll: 1
-					}
+<script src="js/vendors/jquery.min.js"></script>
+<script src="js/vendors/bootstrap.min.js"></script>
+<script src="js/vendors/slick.min.js"></script>
+<script src="js/main.min.js"></script>
+
+
+<script>
+	$('.client-logos').slick({
+		infinite: true,
+		slidesToShow: 3,
+		slidesToScroll: 3,
+		autoplay: true,
+		autoplaySpeed: 2000,
+		responsive: [{
+				breakpoint: 992,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 3,
+					infinite: true
 				}
-			]
-		});
+			},
+			{
+				breakpoint: 800,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 2
+				}
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			}
+		]
+	});
 
-		// On swipe event
-		$('.client-logos').on('swipe', function(event, slick) {
-			$(this).slick('slickPause');
-		});
-	</script>
+	// On swipe event
+	$('.client-logos').on('swipe', function(event, slick) {
+		$(this).slick('slickPause');
+	});
+</script>
 
-	<script>
-		$('#homepage-work-carousel').slick({
-			infinite: true,
-			slidesToShow: 1,
-			slidesToScroll: 1,
-			autoplay: true,
-			autoplaySpeed: 4000,
-			arrows: true
-		});
+<script>
+	$('#homepage-work-carousel').slick({
+		infinite: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 4000,
+		arrows: true
+	});
 
-		// On swipe event
-		$('#homepage-work-carousel').on('swipe', function(event, slick) {
-			$(this).slick('slickPause');
-		});
-	</script>
+	// On swipe event
+	$('#homepage-work-carousel').on('swipe', function(event, slick) {
+		$(this).slick('slickPause');
+	});
+</script>
 
 </body>
 

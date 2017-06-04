@@ -1,6 +1,7 @@
 node_modules/*
 addons/*
 src/*
+doctor/*
 .bowerrc
 bower.json
 gulpfile.js

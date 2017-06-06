@@ -26,11 +26,10 @@
     <![endif]-->
 
 	<!-- Bootstrap -->
-	<link href="css/vendors/icomoon.min.css" rel="stylesheet">
-	<link href="css/vendors/bootstrap.min.css" rel="stylesheet">
+
+	<link href="css/vendors/bootstrap.grid.min.css" rel="stylesheet">
 	<link href="css/vendors/slick.min.css" rel="stylesheet">
-	<link href="css/vendors/slick-theme.min.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400" rel="stylesheet">
 	<link href="css/main.min.css" rel="stylesheet">
 
 
@@ -91,7 +90,7 @@
 		</div>
 	</div>
 
-
+<link href="css/vendors/icomoon.min.css" rel="stylesheet">
 <div class="container-fluid" id="topContainer">
 <div class="container">
   <div class="navbar-header">
@@ -123,13 +122,13 @@
     						<h3>Contact Information</h3>
     					</div>
     				</div>
-    				<form action="#">
+    				<form id="form">
     					<div class="row animate-box">
     						<div class="col-md-6">
     							<p>Please send us an email with an overview of your enquiry, and we will be in touch right away.</p>
     							<ul class="contact-info">
     								<li><i class="icon-location-pin"></i>Landsdown, Bournemouth, BH1 3LH</li>
-    								<li><i class="icon-phone2"></i><a href="tel:+07759149848">077 5914 9848</a></li>
+    								<li><i class="icon-phone2"></i><a href="tel:+01202001582">01202 001 582</a></li>
     								<li><i class="icon-mail"></i><a href="mailto:info@croesusdigitalmarketing.com">info@croesusdigitalmarketing.com</a></li>
     								<li><i class="icon-globe2"></i><a href="#"> croesusdigitalmarketing.com</a></li>
     							</ul>
@@ -138,22 +137,22 @@
     							<div class="row">
     								<div class="col-md-6">
     									<div class="form-group">
-    										<input type="text" class="form-control" placeholder="Name">
+    										<input type="text" name="name" class="form-control" placeholder="Name" required>
     									</div>
     								</div>
     								<div class="col-md-6">
     									<div class="form-group">
-    										<input type="text" class="form-control" placeholder="Email">
+    										<input type="text" name="email" class="form-control" placeholder="Email" required>
     									</div>
     								</div>
     								<div class="col-md-12">
     									<div class="form-group">
-    										<textarea name="" class="form-control" id="" cols="30" rows="7" placeholder="Message"></textarea>
+    										<textarea name="formMessage" class="form-control" id="" cols="30" rows="7" placeholder="Message"></textarea>
     									</div>
     								</div>
     								<div class="col-md-12">
     									<div class="form-group">
-    										<input type="submit" value="Send Message" class="btn btn-primary">
+    										<input type="submit" value="Send Message" class="btn">
     									</div>
     								</div>
     							</div>

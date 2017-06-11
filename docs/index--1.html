@@ -42,53 +42,42 @@
 
 <body>
 	<div class="wrapper">
-		<main class="stage--0">
+		<main class="stage--1">
 			<div class="timeline">
 				<div class="timeline__circle timeline__circle--one">
-					<span>1</span>
-					<span class="icon-checkmark"></span>
+					<span class="timeline__number--one">1</span>
+					<span class="timeline__check icon-checkmark"></span>
 				</div>
 				<span class="timeline__progress"></span>
+
 				<div class="timeline__circle timeline__circle--two">
-					<span>2</span>
-					<span class="icon-checkmark"></span>
+					<span class="timeline__number--two">2</span>
+					<span class="timeline__check icon-checkmark"></span>
 				</div>
 				<span class="timeline__progress"></span>
+
 				<div class="timeline__circle timeline__circle--three">
-					<span>3</span>
-					<span class="icon-checkmark"></span>
+					<span class="timeline__number--three">3</span>
+					<span class="timeline__check icon-checkmark"></span>
 				</div>
 			</div>
 
 			<div class="content">
 				<div class="content__header">
-					<h1 class="header__title">What's your home worth? </h1>
-					<p class="header__subtitle">Find out in 3 easy steps...</p>
+					<h1 class="header__title">Is this correct Address</h1>
 				</div>
 
 				<div class="content__main">
-						<form action="#" class="main__find">
-							<input type="text" class="main__address" name="address" placeholder="Enter your address">
-							<button class="main__search">Search</button>
-						</form>
+					<div id="map"></div>
 				</div>
 
 				<div class="content__footer">
-					<div class="content__client">
-						<p class="client__text">
-							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.
+					<div class="content__question-container">
+						<p class="content__question">
+							Lorem Ipsum is simply dummy text of  the printing and typesetting industry.
 						</p>
-						<div class="client__profile">
-							<div class="client__avatar">
-								<img src="img/avatar_icon.png" alt="Client's avatar">
-							</div>
-							<div class="client__author">
-								<h5 class="client__name">Johan Doe</h5>
-								<p class="client__subtitle">Sold his home 30 days ago</p>
-
-							</div>
-
-						</div>
+						<button class="content__answer content__answer--no">no</button>
+						<button class="content__answer content__answer--yes">yes</button>
 					</div>
 				</div>
 
@@ -97,8 +86,11 @@
 	</div>
 
 
-
 	<!-- Loading JS files -->
+	<!-- Google Map JS -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+	<script src="js/vendors/google_map.min.js"></script>
+	<!-- custom JS -->
 	<script src="js/main.min.js"></script>
 
 </body>

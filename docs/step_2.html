@@ -52,7 +52,7 @@
               <nav class="navbar navbar-expand-lg justify-content-between wow fadeInDown" data-wow-duration="0.7s"> <a class="navbar-brand header__logo" href="index.html"><img src="img/logo-main.svg" alt="Heytutor" class="icon-main-logo"></a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler"
                   aria-expanded="false" aria-label="Toggle navigation">
         <svg width="20" height="18" viewBox="0 0 20 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-          <g id="Canvas" fill="none">
+          <g fill="none">
           <g id="Hamburger">
           <g id="Group 2">
           <g id="Path 18">
@@ -75,9 +75,7 @@
         <span>888-669-9811</span>
       </a>
                   <ul class="main-menu navbar-nav ml-auto">
-                    <li class="nav-item">
-                      <div class="dropdown"> <span class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Find Tutor</span> </div>
-                    </li>
+                    <li class="nav-item"> <a class="nav-link" href="index.html">Find Tutor</a> </li>
                     <li class="nav-item"> <a class="nav-link" href="index.html">HeyTutor</a> </li>
                     <li class="nav-item"> <a class="nav-link" href="index.html">About Us</a> </li>
                     <li class="nav-item"> <a class="nav-link" href="index.html">Become a Tutor</a> </li>
@@ -91,67 +89,70 @@
               <h1 class="hero__title wow fadeInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">Find a Local Qualified Tutor. Today.</h1>
               <h3 class="hero__subtitle wow fadeInUp" data-wow-duration="0.7s" data-wow-delay="0.8s">Private 1-on-1 lessons with qualified tutors for over 250 subjects. Starting as low as $25/hr.</h3>
             </div>
-            <div class="order-form wow zoomIn" data-wow-duration="1s" data-wow-delay="1s">
-              <form action="" class="form">
-                <div class="form-step-2">
-                  <div class="form__top"> <a href="step_1.html" class="form__back">
+            <div id="barba-wrapper">
+              <div class="barba-container">
+                <div class="order-form wow zoomIn" data-wow-duration="1s" data-wow-delay="1s">
+                  <form action="" class="form">
+                    <div class="form-step-2">
+                      <div class="form__top"> <a href="step_1.html" class="form__back">
       <img src="img/icons/arrow.svg" alt="Go back">Back</a>
-                    <h3 class="form__title">Find <span class="color-green">Science</span> tutor in <span class="color-green">Los Angeles</span></h3>
-                  </div>
-                  <div class="form__block pixel-perfect-padding0">
-                    <h4 class="form__block-header"> <span class="oval-grey"><img src="img/icons/study.svg" class="icon-study" alt="Study"></span> What grade is the student in?</h4>
-                    <div class="form__row form__row--grade">
-                      <div class="radio__group">
-                        <div class="radio__input-container"> <input id="formValueElementary" class="radio__button" type="radio" name="radio-grade" />
-                          <div class="radio__item">
-                            <div class="radio__icon"> </div> <label for="formValueElementary" class="radio__label">Elementary</label> </div>
-                        </div>
-                        <div class="radio__input-container"> <input id="formValueMiddleSchool" class="radio__button" type="radio" name="radio-grade" />
-                          <div class="radio__item">
-                            <div class="radio__icon"> </div> <label for="formValueMiddleSchool" class="radio__label">Middle school</label> </div>
-                        </div>
-                        <div class="radio__input-container"> <input id="formValueHighSchool" class="radio__button" type="radio" name="radio-grade" />
-                          <div class="radio__item">
-                            <div class="radio__icon"> </div> <label for="formValueHighSchool" class="radio__label">High school</label> </div>
-                        </div>
-                        <div class="radio__input-container"> <input id="formValueCollege" class="radio__button" type="radio" name="radio-grade" />
-                          <div class="radio__item">
-                            <div class="radio__icon"> </div> <label for="formValueCollege" class="radio__label">College</label> </div>
-                        </div>
-                        <div class="radio__input-container"> <input id="formValueAdult" class="radio__button" type="radio" name="radio-grade" />
-                          <div class="radio__item">
-                            <div class="radio__icon"> </div> <label for="formValueAdult" class="radio__label">Adult</label> </div>
+                        <h3 class="form__title">Find <span class="color-green">Science</span> tutor in <span class="color-green">Los Angeles</span></h3>
+                      </div>
+                      <div class="form__block pixel-perfect-padding0">
+                        <h4 class="form__block-header"> <span class="oval-grey"><img src="img/icons/study.svg" class="icon-study" alt="Study"></span> What grade is the student in?</h4>
+                        <div class="form__row form__row--grade">
+                          <div class="radio__group">
+                            <div class="radio__input-container"> <input id="formValueElementary" class="radio__button" type="radio" name="radio-grade" />
+                              <div class="radio__item">
+                                <div class="radio__icon"> </div> <label for="formValueElementary" class="radio__label">Elementary</label> </div>
+                            </div>
+                            <div class="radio__input-container"> <input id="formValueMiddleSchool" class="radio__button" type="radio" name="radio-grade" />
+                              <div class="radio__item">
+                                <div class="radio__icon"> </div> <label for="formValueMiddleSchool" class="radio__label">Middle school</label> </div>
+                            </div>
+                            <div class="radio__input-container"> <input id="formValueHighSchool" class="radio__button" type="radio" name="radio-grade" />
+                              <div class="radio__item">
+                                <div class="radio__icon"> </div> <label for="formValueHighSchool" class="radio__label">High school</label> </div>
+                            </div>
+                            <div class="radio__input-container"> <input id="formValueCollege" class="radio__button" type="radio" name="radio-grade" />
+                              <div class="radio__item">
+                                <div class="radio__icon"> </div> <label for="formValueCollege" class="radio__label">College</label> </div>
+                            </div>
+                            <div class="radio__input-container"> <input id="formValueAdult" class="radio__button" type="radio" name="radio-grade" />
+                              <div class="radio__item">
+                                <div class="radio__icon"> </div> <label for="formValueAdult" class="radio__label">Adult</label> </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </div>
-                  <div class="form__block  border-top">
-                    <h4 class="form__block-header"> <span class="oval-grey"><img src="img/icons/point.svg" class="icon-point" alt="Study"></span> Where would you like lessons to occur?</h4>
-                    <div class="form__row">
-                      <div class="radio__group">
-                        <div class="radio__input-container"> <input id="formValueAtHome" class="radio__button" type="radio" name="radio-location" />
-                          <div class="radio__item">
-                            <div class="radio__icon"> </div> <label for="formValueAtHome" class="radio__label">At home</label> </div>
-                        </div>
-                        <div class="radio__input-container"> <input id="formValuePublicPlace" class="radio__button" type="radio" name="radio-location" />
-                          <div class="radio__item">
-                            <div class="radio__icon"> </div> <label for="formValuePublicPlace" class="radio__label">Library/public place</label> </div>
-                        </div>
-                        <div class="radio__input-container"> <input id="formValueTutorLocation" class="radio__button" type="radio" name="radio-location" checked/>
-                          <div class="radio__item">
-                            <div class="radio__icon"> </div> <label for="formValueTutorLocation" class="radio__label">Tutor’s location</label> </div>
-                        </div>
-                        <div class="radio__input-container"> <input id="formValueOnline" class="radio__button" type="radio" name="radio-location" />
-                          <div class="radio__item">
-                            <div class="radio__icon"> </div>
-                            <laFbel for="formValueOnline" class="radio__label">Online</label>
+                      <div class="form__block  border-top">
+                        <h4 class="form__block-header"> <span class="oval-grey"><img src="img/icons/point.svg" class="icon-point" alt="Study"></span> Where would you like lessons to occur?</h4>
+                        <div class="form__row">
+                          <div class="radio__group">
+                            <div class="radio__input-container"> <input id="formValueAtHome" class="radio__button" type="radio" name="radio-location" />
+                              <div class="radio__item">
+                                <div class="radio__icon"> </div> <label for="formValueAtHome" class="radio__label">At home</label> </div>
+                            </div>
+                            <div class="radio__input-container"> <input id="formValuePublicPlace" class="radio__button" type="radio" name="radio-location" />
+                              <div class="radio__item">
+                                <div class="radio__icon"> </div> <label for="formValuePublicPlace" class="radio__label">Library/public place</label> </div>
+                            </div>
+                            <div class="radio__input-container"> <input id="formValueTutorLocation" class="radio__button" type="radio" name="radio-location" checked/>
+                              <div class="radio__item">
+                                <div class="radio__icon"> </div> <label for="formValueTutorLocation" class="radio__label">Tutor’s location</label> </div>
+                            </div>
+                            <div class="radio__input-container"> <input id="formValueOnline" class="radio__button" type="radio" name="radio-location" />
+                              <div class="radio__item">
+                                <div class="radio__icon"> </div> <label for="formValueOnline" class="radio__label">Online</label> </div>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                </div>
-              </form> <img src="img/dots.svg" alt="" class="order-form__dots"> </div>
+                    <div class="form__row justify-content-end"> <a href="step_3.html" class="button button--green">Find a Tutor</a> </div>
+                  </form> <img src="img/dots.svg" alt="" class="order-form__dots"> </div>
+              </div>
+            </div>
           </div> <img src="img/bg-hero.png" alt="" class="hero__bg"> </div>
         <!-- end hero -->
         <!-- begin SLIDER -->

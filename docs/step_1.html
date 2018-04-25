@@ -52,7 +52,7 @@
               <nav class="navbar navbar-expand-lg justify-content-between wow fadeInDown" data-wow-duration="0.7s"> <a class="navbar-brand header__logo" href="index.html"><img src="img/logo-main.svg" alt="Heytutor" class="icon-main-logo"></a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler"
                   aria-expanded="false" aria-label="Toggle navigation">
         <svg width="20" height="18" viewBox="0 0 20 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-          <g id="Canvas" fill="none">
+          <g fill="none">
           <g id="Hamburger">
           <g id="Group 2">
           <g id="Path 18">
@@ -75,9 +75,7 @@
         <span>888-669-9811</span>
       </a>
                   <ul class="main-menu navbar-nav ml-auto">
-                    <li class="nav-item">
-                      <div class="dropdown"> <span class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Find Tutor</span> </div>
-                    </li>
+                    <li class="nav-item"> <a class="nav-link" href="index.html">Find Tutor</a> </li>
                     <li class="nav-item"> <a class="nav-link" href="index.html">HeyTutor</a> </li>
                     <li class="nav-item"> <a class="nav-link" href="index.html">About Us</a> </li>
                     <li class="nav-item"> <a class="nav-link" href="index.html">Become a Tutor</a> </li>
@@ -91,13 +89,15 @@
               <h1 class="hero__title wow fadeInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">Find a Local Qualified Tutor. Today.</h1>
               <h3 class="hero__subtitle wow fadeInUp" data-wow-duration="0.7s" data-wow-delay="0.8s">Private 1-on-1 lessons with qualified tutors for over 250 subjects. Starting as low as $25/hr.</h3>
             </div>
-            <div class="order-form wow zoomIn" data-wow-duration="1s" data-wow-delay="1s">
-              <form action="" class="form">
-                <div class="form-step-1">
-                  <div class="form__row column-md-down">
-                    <div class="form-group"> <label for="formSelectSubject">Subject</label>
-                      <!-- begin custom select -->
-                      <div class="select_mate form__elem bg__icon bg__select-subject" id="formSelectSubject" data-mate-select="active"> <select name="" onchange="" onclick="return false;">
+            <div id="barba-wrapper">
+              <div class="barba-container">
+                <div class="order-form wow zoomIn" data-wow-duration="1s" data-wow-delay="1s">
+                  <form action="" class="form">
+                    <div class="form-step-1">
+                      <div class="form__row column-md-down">
+                        <div class="form-group"> <label for="formSelectSubject">Subject</label>
+                          <!-- begin custom select -->
+                          <div class="select_mate form__elem bg__icon bg__select-subject" id="formSelectSubject" data-mate-select="active"> <select name="" onchange="" onclick="return false;">
             <option value="">Subject</option>
             <option value="1">Science</option>
             <option value="2" >Health Science</option>
@@ -106,29 +106,27 @@
             <option value="5">Earcth Science</option>
             <option value="6">Act Science</option>
             </select>
-                        <p class="selecionado_opcion"></p> <span class="icon_select_mate"><svg width="16" height="9" viewBox="0 0 16 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-              <g id="Canvas" fill="none">
+                            <p class="selecionado_opcion"></p> <span class="icon_select_mate"><svg width="16" height="9" viewBox="0 0 16 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g fill="none">
               <g id="Rectangle 7">
               <path d="M 0 9.78309L 0 0L 9.78309 0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" transform="matrix(-0.707107 0.707107 0.707107 0.707107 8 0.845703)" stroke="#BEC9DE"/>
               </g>
               </g>
               </svg>
               </span>
-                        <div class="cont_list_select_mate">
-                          <ul class="cont_select_int"> </ul>
+                            <div class="cont_list_select_mate">
+                              <ul class="cont_select_int"> </ul>
+                            </div>
+                          </div>
+                          <!-- end custom select -->
                         </div>
+                        <div class="form-group"> <label for="formZip">ZIP</label> <input type="text" class="form__elem bg__icon bg__pointer" id="formZip" placeholder="ZIP Code"> </div>
+                        <div class="form-group"> <a href="step_2.html" class="button button--green form-next-step">Find a Tutor</a> </div>
                       </div>
-                      <!-- end custom select -->
                     </div>
-                    <div class="form-group"> <label for="formZip">ZIP</label> <input type="text" class="form__elem bg__icon bg__pointer" id="formZip" placeholder="ZIP Code"> </div>
-                    <div class="form-group"> <button class="button button--green form-next-step">Find a Tutor</button> </div>
-                  </div>
-                </div>
-                <div class="container" id="pjax-container" data-pjax-container=""> Go to <a href="step_2.html" class="go-next-step">next page</a>. </div>
-                <div class="form__bottom">
-                  <div class="form__row  justify-content-end"> <button class="button mr-30px button--preview">Preview Job</button> <button type="submit" class="button button--green form-next-step">Find a Tutor</button> </div>
-                </div>
-              </form> <img src="img/dots.svg" alt="" class="order-form__dots"> </div>
+                  </form> <img src="img/dots.svg" alt="" class="order-form__dots"> </div>
+              </div>
+            </div>
           </div> <img src="img/bg-hero.png" alt="" class="hero__bg"> </div>
         <!-- end hero -->
         <section class="section-partners wow fadeInUp" data-wow-duration="0.7s" data-wow-delay="0.2s">

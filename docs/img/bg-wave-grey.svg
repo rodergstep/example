@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg  viewBox="0 0 1440 1002" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 27</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="21.8576298%" y1="111.588655%" x2="92.1932809%" y2="24.2995613%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#F3F9FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Desktop-and-Mobile-Version" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage-" transform="translate(0.000000, -2701.000000)" fill="url(#linearGradient-1)">
+            <g id="Group-47" transform="translate(-150.000000, 1099.000000)">
+                <path d="M150,1812.83101 L1356.02565,1604.93988 C1464.87724,1586.17636 1568.32972,1659.20717 1587.09324,1768.05876 C1589.02755,1779.28015 1590,1790.64623 1590,1802.03311 L1590,2603.34649 L150,2603.34649 L150,1812.83101 Z" id="Rectangle-27"></path>
+            </g>
+        </g>
+    </g>
+</svg>
